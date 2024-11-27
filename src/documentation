@@ -1,0 +1,33 @@
+Prerequisites
+Java Development Kit (JDK):
+
+Ensure JDK 8 or higher is installed.
+Selenium WebDriver:
+
+Download the latest ChromeDriver from ChromeDriver Downloads.
+Ensure the ChromeDriver version matches the version of Google Chrome installed on your system.
+Eclipse IDE (or any Java IDE):
+
+Install an IDE for Java development.
+Add the Selenium Java libraries to your project classpath.
+Dependencies:
+
+Add the Selenium standalone JAR files/dependency to your project.
+
+Fitpeo_Automation/
+│
+├── src/
+│   └── browsers/
+│       └── chromedriver.exe
+│   └── fit_Automation/
+│       └── FitPeoAutomation.java
+└── lib/
+    └── Selenium JAR files // add selenium library in pom.xml
+
+
+
+Configuring the WebDriver :
+Ensure the chromedriver.exe file is correctly placed in the browsers directory. Update the following line in the script to point to the correct path:  //  System.setProperty("webdriver.chrome.driver", "replace your path of chromedriver.exe file");
+
+
+
